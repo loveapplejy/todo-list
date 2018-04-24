@@ -1,0 +1,30 @@
+@import "style.scss";
+
+.sort-area {
+  position: relative;
+  top: 43px;
+  padding: 6px 7px;
+  border-bottom: 1px solid $border-color;
+  background: #f3f3f3;
+
+  ul {
+    display: inline-block;
+    width: 100%;
+    font-size: 11px;
+
+    li {
+      display: inline-block;
+      float: left;
+      padding: 5px;
+      margin: 5px;
+      border: 1px solid #c7c7c7;
+      background: #fff;
+      vertical-align: middle;
+      cursor: pointer;
+      &.active {
+        background: $primary-color;
+        color: #fff;
+      }
+    }
+  }
+}

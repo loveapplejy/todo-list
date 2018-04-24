@@ -1,0 +1,12 @@
+@import "style.scss";
+
+.list-area {
+  position: relative;
+  margin-top: 43px;
+  ul:after {
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden
+  }
+}
