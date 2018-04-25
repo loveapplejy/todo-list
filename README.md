@@ -1,6 +1,6 @@
-# Todo List
+# Todo List(React.JS)
 
-#### 1. Dev
+#### 1. Dev :)
 
 ```bash
 $ npm run start
@@ -8,7 +8,7 @@ $ npm run start
 
 http://localhost:3000
 
-#### 2. Build
+#### 2. Build :)
 
 ```bash
 $ npm run build
